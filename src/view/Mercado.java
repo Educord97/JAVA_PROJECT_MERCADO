@@ -28,10 +28,10 @@ public class Mercado {
 	private static void menu() {
 		System.out.println("=============================================");
 		System.out.println("================== Bem-Vindo(a) ==============");
-		System.out.println("================== Nosso Mercado ============");
+		System.out.println("================== Nosso Mercado =============");
 		System.out.println("=============================================");
 		
-		System.out.println("Selecione uma opção abaixo: ");
+		System.out.println("Selecione uma opï¿½ï¿½o abaixo: ");
 		System.out.println("1 - Cadastrar produto");
 		System.out.println("2 - Listar produtos");
 		System.out.println("3 - Listar produtos");
@@ -67,7 +67,7 @@ public class Mercado {
 			Utils.pausar(2);
 			System.exit(0);
 		default:
-			System.out.println("Opção inválida.");
+			System.out.println("Opï¿½ï¿½o invï¿½lida.");
 			Utils.pausar(2);
 			Mercado.menu();
 			break;
@@ -82,7 +82,7 @@ public class Mercado {
 		System.out.println("Informe o nome do produto: ");
 		String nome = Mercado.teclado.nextLine();
 		
-		System.out.println("Informe o preço do produto: ");
+		System.out.println("Informe o preï¿½o do produto: ");
 		Double preco = Mercado.teclado.nextDouble();
 		
 		Produto produto = new Produto(nome, preco);
@@ -104,7 +104,7 @@ public class Mercado {
 				System.out.println();
 			}
 		}else {
-			System.out.println("Ainda não existem produtos cadastrados.");
+			System.out.println("Ainda nï¿½o existem produtos cadastrados.");
 		}
 		
 		Utils.pausar(2);
@@ -125,7 +125,7 @@ public class Mercado {
 				System.out.println("Produto: " + p + "\nQuandidade: " + Mercado.carrinho.get(p));
 			}
 		}else {
-			System.out.println("Ainda não existem produtos no carrinho.");
+			System.out.println("Ainda nï¿½o existem produtos no carrinho.");
 		}
 		
 		Utils.pausar(2);
