@@ -29,7 +29,7 @@ public class Mercado {
 		System.out.println("=============================================");
 		System.out.println("================== Bem-Vindo(a) ==============");
 		System.out.println("================== Nosso Mercado =============");
-		System.out.println("=============================================");
+		System.out.println("==============================================");
 		
 		System.out.println("Selecione uma op��o abaixo: ");
 		System.out.println("1 - Cadastrar produto");
