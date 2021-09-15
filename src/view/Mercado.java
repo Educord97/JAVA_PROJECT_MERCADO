@@ -27,7 +27,7 @@ public class Mercado {
 	
 	private static void menu() {
 		System.out.println("=============================================");
-		System.out.println("================== Bem-Vindo(a) =============");
+		System.out.println("================== Bem-Vindo(a) ==============");
 		System.out.println("================== Nosso Mercado ============");
 		System.out.println("=============================================");
 		
